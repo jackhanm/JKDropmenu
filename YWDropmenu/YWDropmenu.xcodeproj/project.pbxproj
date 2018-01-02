@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6691479D1F3962DB00484D8B /* YWDropDownMenuProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 6691479C1F3962DB00484D8B /* YWDropDownMenuProtocol.m */; };
+		669147A01F39A72F00484D8B /* YWDropDownMenudelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6691479F1F39A72F00484D8B /* YWDropDownMenudelegate.m */; };
+		669147A31F39AB9100484D8B /* YWBackgroundcellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 669147A21F39AB9100484D8B /* YWBackgroundcellView.m */; };
+		66BF55E71F347C7000DDCE39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BF55E61F347C7000DDCE39 /* main.m */; };
+		66BF55EA1F347C7000DDCE39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BF55E91F347C7000DDCE39 /* AppDelegate.m */; };
+		66BF55ED1F347C7000DDCE39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BF55EC1F347C7000DDCE39 /* ViewController.m */; };
+		66BF55F01F347C7000DDCE39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BF55EE1F347C7000DDCE39 /* Main.storyboard */; };
+		66BF55F21F347C7000DDCE39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BF55F11F347C7000DDCE39 /* Assets.xcassets */; };
+		66BF55F51F347C7000DDCE39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BF55F31F347C7000DDCE39 /* LaunchScreen.storyboard */; };
+		66BF56001F347C7000DDCE39 /* YWDropmenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BF55FF1F347C7000DDCE39 /* YWDropmenuTests.m */; };
+		66BF560B1F347C7000DDCE39 /* YWDropmenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BF560A1F347C7000DDCE39 /* YWDropmenuUITests.m */; };
+		66BF561A1F347D1900DDCE39 /* YWDropmenuObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BF56191F347D1900DDCE39 /* YWDropmenuObject.m */; };
+		66BF561D1F347ECF00DDCE39 /* YWDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BF561C1F347ECF00DDCE39 /* YWDropDownMenu.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66BF55FC1F347C7000DDCE39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66BF55DA1F347C7000DDCE39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66BF55E11F347C7000DDCE39;
+			remoteInfo = YWDropmenu;
+		};
+		66BF56071F347C7000DDCE39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66BF55DA1F347C7000DDCE39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66BF55E11F347C7000DDCE39;
+			remoteInfo = YWDropmenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6691479B1F3962DB00484D8B /* YWDropDownMenuProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWDropDownMenuProtocol.h; sourceTree = "<group>"; };
+		6691479C1F3962DB00484D8B /* YWDropDownMenuProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWDropDownMenuProtocol.m; sourceTree = "<group>"; };
+		6691479E1F39A72F00484D8B /* YWDropDownMenudelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWDropDownMenudelegate.h; sourceTree = "<group>"; };
+		6691479F1F39A72F00484D8B /* YWDropDownMenudelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWDropDownMenudelegate.m; sourceTree = "<group>"; };
+		669147A11F39AB9100484D8B /* YWBackgroundcellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWBackgroundcellView.h; sourceTree = "<group>"; };
+		669147A21F39AB9100484D8B /* YWBackgroundcellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWBackgroundcellView.m; sourceTree = "<group>"; };
+		66BF55E21F347C7000DDCE39 /* YWDropmenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWDropmenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BF55E61F347C7000DDCE39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66BF55E81F347C7000DDCE39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66BF55E91F347C7000DDCE39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66BF55EB1F347C7000DDCE39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66BF55EC1F347C7000DDCE39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66BF55EF1F347C7000DDCE39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66BF55F11F347C7000DDCE39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66BF55F41F347C7000DDCE39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66BF55F61F347C7000DDCE39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66BF55FB1F347C7000DDCE39 /* YWDropmenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWDropmenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BF55FF1F347C7000DDCE39 /* YWDropmenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWDropmenuTests.m; sourceTree = "<group>"; };
+		66BF56011F347C7000DDCE39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66BF56061F347C7000DDCE39 /* YWDropmenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWDropmenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BF560A1F347C7000DDCE39 /* YWDropmenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWDropmenuUITests.m; sourceTree = "<group>"; };
+		66BF560C1F347C7000DDCE39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66BF56181F347D1900DDCE39 /* YWDropmenuObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWDropmenuObject.h; sourceTree = "<group>"; };
+		66BF56191F347D1900DDCE39 /* YWDropmenuObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWDropmenuObject.m; sourceTree = "<group>"; };
+		66BF561B1F347ECF00DDCE39 /* YWDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWDropDownMenu.h; sourceTree = "<group>"; };
+		66BF561C1F347ECF00DDCE39 /* YWDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWDropDownMenu.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66BF55DF1F347C7000DDCE39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BF55F81F347C7000DDCE39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BF56031F347C7000DDCE39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66BF55D91F347C7000DDCE39 = {
+			isa = PBXGroup;
+			children = (
+				66BF55E41F347C7000DDCE39 /* YWDropmenu */,
+				66BF55FE1F347C7000DDCE39 /* YWDropmenuTests */,
+				66BF56091F347C7000DDCE39 /* YWDropmenuUITests */,
+				66BF55E31F347C7000DDCE39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66BF55E31F347C7000DDCE39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66BF55E21F347C7000DDCE39 /* YWDropmenu.app */,
+				66BF55FB1F347C7000DDCE39 /* YWDropmenuTests.xctest */,
+				66BF56061F347C7000DDCE39 /* YWDropmenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66BF55E41F347C7000DDCE39 /* YWDropmenu */ = {
+			isa = PBXGroup;
+			children = (
+				66BF55E81F347C7000DDCE39 /* AppDelegate.h */,
+				66BF55E91F347C7000DDCE39 /* AppDelegate.m */,
+				66BF55EB1F347C7000DDCE39 /* ViewController.h */,
+				66BF55EC1F347C7000DDCE39 /* ViewController.m */,
+				66BF56181F347D1900DDCE39 /* YWDropmenuObject.h */,
+				66BF56191F347D1900DDCE39 /* YWDropmenuObject.m */,
+				6691479B1F3962DB00484D8B /* YWDropDownMenuProtocol.h */,
+				6691479C1F3962DB00484D8B /* YWDropDownMenuProtocol.m */,
+				6691479E1F39A72F00484D8B /* YWDropDownMenudelegate.h */,
+				6691479F1F39A72F00484D8B /* YWDropDownMenudelegate.m */,
+				66BF561B1F347ECF00DDCE39 /* YWDropDownMenu.h */,
+				66BF561C1F347ECF00DDCE39 /* YWDropDownMenu.m */,
+				669147A11F39AB9100484D8B /* YWBackgroundcellView.h */,
+				669147A21F39AB9100484D8B /* YWBackgroundcellView.m */,
+				66BF55EE1F347C7000DDCE39 /* Main.storyboard */,
+				66BF55F11F347C7000DDCE39 /* Assets.xcassets */,
+				66BF55F31F347C7000DDCE39 /* LaunchScreen.storyboard */,
+				66BF55F61F347C7000DDCE39 /* Info.plist */,
+				66BF55E51F347C7000DDCE39 /* Supporting Files */,
+			);
+			path = YWDropmenu;
+			sourceTree = "<group>";
+		};
+		66BF55E51F347C7000DDCE39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66BF55E61F347C7000DDCE39 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66BF55FE1F347C7000DDCE39 /* YWDropmenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				66BF55FF1F347C7000DDCE39 /* YWDropmenuTests.m */,
+				66BF56011F347C7000DDCE39 /* Info.plist */,
+			);
+			path = YWDropmenuTests;
+			sourceTree = "<group>";
+		};
+		66BF56091F347C7000DDCE39 /* YWDropmenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66BF560A1F347C7000DDCE39 /* YWDropmenuUITests.m */,
+				66BF560C1F347C7000DDCE39 /* Info.plist */,
+			);
+			path = YWDropmenuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66BF55E11F347C7000DDCE39 /* YWDropmenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66BF560F1F347C7000DDCE39 /* Build configuration list for PBXNativeTarget "YWDropmenu" */;
+			buildPhases = (
+				66BF55DE1F347C7000DDCE39 /* Sources */,
+				66BF55DF1F347C7000DDCE39 /* Frameworks */,
+				66BF55E01F347C7000DDCE39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YWDropmenu;
+			productName = YWDropmenu;
+			productReference = 66BF55E21F347C7000DDCE39 /* YWDropmenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66BF55FA1F347C7000DDCE39 /* YWDropmenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66BF56121F347C7000DDCE39 /* Build configuration list for PBXNativeTarget "YWDropmenuTests" */;
+			buildPhases = (
+				66BF55F71F347C7000DDCE39 /* Sources */,
+				66BF55F81F347C7000DDCE39 /* Frameworks */,
+				66BF55F91F347C7000DDCE39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66BF55FD1F347C7000DDCE39 /* PBXTargetDependency */,
+			);
+			name = YWDropmenuTests;
+			productName = YWDropmenuTests;
+			productReference = 66BF55FB1F347C7000DDCE39 /* YWDropmenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66BF56051F347C7000DDCE39 /* YWDropmenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66BF56151F347C7000DDCE39 /* Build configuration list for PBXNativeTarget "YWDropmenuUITests" */;
+			buildPhases = (
+				66BF56021F347C7000DDCE39 /* Sources */,
+				66BF56031F347C7000DDCE39 /* Frameworks */,
+				66BF56041F347C7000DDCE39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66BF56081F347C7000DDCE39 /* PBXTargetDependency */,
+			);
+			name = YWDropmenuUITests;
+			productName = YWDropmenuUITests;
+			productReference = 66BF56061F347C7000DDCE39 /* YWDropmenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66BF55DA1F347C7000DDCE39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = uhqsh;
+				TargetAttributes = {
+					66BF55E11F347C7000DDCE39 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 58XAU679P2;
+						ProvisioningStyle = Automatic;
+					};
+					66BF55FA1F347C7000DDCE39 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 58XAU679P2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66BF55E11F347C7000DDCE39;
+					};
+					66BF56051F347C7000DDCE39 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 58XAU679P2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66BF55E11F347C7000DDCE39;
+					};
+				};
+			};
+			buildConfigurationList = 66BF55DD1F347C7000DDCE39 /* Build configuration list for PBXProject "YWDropmenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66BF55D91F347C7000DDCE39;
+			productRefGroup = 66BF55E31F347C7000DDCE39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66BF55E11F347C7000DDCE39 /* YWDropmenu */,
+				66BF55FA1F347C7000DDCE39 /* YWDropmenuTests */,
+				66BF56051F347C7000DDCE39 /* YWDropmenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66BF55E01F347C7000DDCE39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BF55F51F347C7000DDCE39 /* LaunchScreen.storyboard in Resources */,
+				66BF55F21F347C7000DDCE39 /* Assets.xcassets in Resources */,
+				66BF55F01F347C7000DDCE39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BF55F91F347C7000DDCE39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BF56041F347C7000DDCE39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66BF55DE1F347C7000DDCE39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BF561D1F347ECF00DDCE39 /* YWDropDownMenu.m in Sources */,
+				6691479D1F3962DB00484D8B /* YWDropDownMenuProtocol.m in Sources */,
+				66BF55ED1F347C7000DDCE39 /* ViewController.m in Sources */,
+				66BF55EA1F347C7000DDCE39 /* AppDelegate.m in Sources */,
+				669147A31F39AB9100484D8B /* YWBackgroundcellView.m in Sources */,
+				66BF561A1F347D1900DDCE39 /* YWDropmenuObject.m in Sources */,
+				66BF55E71F347C7000DDCE39 /* main.m in Sources */,
+				669147A01F39A72F00484D8B /* YWDropDownMenudelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BF55F71F347C7000DDCE39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BF56001F347C7000DDCE39 /* YWDropmenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BF56021F347C7000DDCE39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BF560B1F347C7000DDCE39 /* YWDropmenuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66BF55FD1F347C7000DDCE39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66BF55E11F347C7000DDCE39 /* YWDropmenu */;
+			targetProxy = 66BF55FC1F347C7000DDCE39 /* PBXContainerItemProxy */;
+		};
+		66BF56081F347C7000DDCE39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66BF55E11F347C7000DDCE39 /* YWDropmenu */;
+			targetProxy = 66BF56071F347C7000DDCE39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66BF55EE1F347C7000DDCE39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66BF55EF1F347C7000DDCE39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66BF55F31F347C7000DDCE39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66BF55F41F347C7000DDCE39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66BF560D1F347C7000DDCE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66BF560E1F347C7000DDCE39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66BF56101F347C7000DDCE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 58XAU679P2;
+				INFOPLIST_FILE = YWDropmenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uhqsh.YWDropmenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66BF56111F347C7000DDCE39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 58XAU679P2;
+				INFOPLIST_FILE = YWDropmenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uhqsh.YWDropmenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66BF56131F347C7000DDCE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 58XAU679P2;
+				INFOPLIST_FILE = YWDropmenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uhqsh.YWDropmenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YWDropmenu.app/YWDropmenu";
+			};
+			name = Debug;
+		};
+		66BF56141F347C7000DDCE39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 58XAU679P2;
+				INFOPLIST_FILE = YWDropmenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uhqsh.YWDropmenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YWDropmenu.app/YWDropmenu";
+			};
+			name = Release;
+		};
+		66BF56161F347C7000DDCE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 58XAU679P2;
+				INFOPLIST_FILE = YWDropmenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uhqsh.YWDropmenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YWDropmenu;
+			};
+			name = Debug;
+		};
+		66BF56171F347C7000DDCE39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 58XAU679P2;
+				INFOPLIST_FILE = YWDropmenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uhqsh.YWDropmenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YWDropmenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66BF55DD1F347C7000DDCE39 /* Build configuration list for PBXProject "YWDropmenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BF560D1F347C7000DDCE39 /* Debug */,
+				66BF560E1F347C7000DDCE39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66BF560F1F347C7000DDCE39 /* Build configuration list for PBXNativeTarget "YWDropmenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BF56101F347C7000DDCE39 /* Debug */,
+				66BF56111F347C7000DDCE39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66BF56121F347C7000DDCE39 /* Build configuration list for PBXNativeTarget "YWDropmenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BF56131F347C7000DDCE39 /* Debug */,
+				66BF56141F347C7000DDCE39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66BF56151F347C7000DDCE39 /* Build configuration list for PBXNativeTarget "YWDropmenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BF56161F347C7000DDCE39 /* Debug */,
+				66BF56171F347C7000DDCE39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66BF55DA1F347C7000DDCE39 /* Project object */;
+}
